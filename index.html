@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="graph3d" style="width:100vw; height:100vh; position: relative;"></div>
+  
+    <div id="info-panel" style="
+      position: absolute;
+      top: 20px; right: 20px;
+      width: 250px;
+      padding: 10px;
+      background: rgba(255,255,255,0.9);
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      display: none;
+      z-index: 10;
+    ">
+      <h3 id="info-title"></h3>
+      <p id="info-desc"></p>
+      <button id="info-close" style="
+        position: absolute; top: 5px; right: 5px;
+        border: none; background: transparent; font-size: 16px;
+        cursor: pointer;
+      ">×</button>
+    </div>
+  
+    <script type="module" src="/src/main.js"></script>
+  </body>
+  
+</html>
