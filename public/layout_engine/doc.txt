@@ -1,1 +1,0 @@
-python .\public\layout_engine\compute_layout.py .\public\data\graph_input.json .\public\data\graph.json --iterations 100 --dim 3
